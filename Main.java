@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        if(args[0]=="pt-br"){
+            System.out.println("Olá "+args[0]);
+        }else{
+            System.out.println("Hello " + args[0]);
+        }
     }    
 }
-
-//comentando outra coisa
